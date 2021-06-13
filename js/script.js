@@ -1,3 +1,3 @@
-$(`p`).click(function(){
-       $(`p`).slideToggle(`slow`);
+$('p').click(function() {
+	$(this).slideToggle('slow');
 });
